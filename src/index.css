@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:black;
+}
+
+figure img{
+  height: 70px;
+  width: 80px;
+}
+
+.main_div{
+  height: 50vh;
+  width: 40%;
+  background:black;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2rem;
+  border-radius: 40px;
+}
+
+.child_div{
+  display: flex;
+  flex-direction: column;
+}
+
+figure{
+  margin-top: 1rem;
+  text-align: center;
+  color: white;
+}
+
+input{
+  margin-top: 1.2rem;
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  flex: left;
+  border:none;
+  outline: none;
+  color: whitesmoke;
+  border-bottom: 2px solid blueviolet;
+}
+
+
+
+.fa-plus{
+  margin-left: 2rem;
+  border: 2px solid black;
+  padding: 10px 20px;
+  cursor: pointer;
+  background:white;
+  color:black;
+  font-size: 1.5rem;
+   border-radius: 30px;
+}
+
+.fa-plus:hover{
+  background-color:orange;
+  color: whitesmoke;
+}
+
+
+.show_items{
+  margin-top: 1.2rem;
+}
+
+.show_items .each_item{
+  display: flex;
+  align-items: center;
+  font-size: 2.1rem;
+  justify-content: space-between;
+  color: whitesmoke;
+}
+
+.fa-trash:hover{
+  color: red;
+  cursor: pointer;
+}
+
+.btn_items{
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.btn_items .btn{
+  margin: auto;
+  padding: 10px 20px;
+  background-color: white;
+  color: red;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.btn_items .btn:hover{
+  background-color: red;
+  color: whitesmoke;
+}
+
+h3{
+  color: whitesmoke;
+}
+
+.fa-edit{
+  margin-right: 1rem;
+}
+
+.fa-edit:hover{
+  color: greenyellow;
+}
+
+.button{
+  display: flex;
+  cursor: pointer;
+
+}
+
+@media  (max-width:800px) {
+  figure img{
+    height: 70px;
+    width: 80px;
+  }
+
+  .main_div{
+    height: auto;
+    width: 100%;
+    background:black;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 40px;
+  }
+  .show_items{
+    margin-top: 1.2rem;
+  }
+  
+  .show_items .each_item{
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    justify-content: space-between;
+    color: whitesmoke;
+  }
+  input{
+    margin-top: 1.2rem;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    flex: left;
+    border:none;
+    outline: none;
+    color: whitesmoke;
+    border-bottom: 2px solid blueviolet;
+  }
+  .fa-plus{
+    margin-left: 2rem;
+    border: 2px solid black;
+    padding: 5px 10px;
+    cursor: pointer;
+    background:white;
+    color:black;
+    font-size: 1.3rem;
+     border-radius: 30px;
+  }
+}
